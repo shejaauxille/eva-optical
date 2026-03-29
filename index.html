@@ -1,574 +1,764 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Eva optical</title>
-        <!-- Favicon-->
-        <link rel="icon" href="eva logo .png" type="image/x-icon" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Eva Optical Rwanda – Premium eye care, eyeglasses, contact lenses, and spectacle fitting in Kigali, Gisenyi & Musanze." />
+  <title>Eva Optical | See Better. Live Better.</title>
+  <link rel="icon" href="evalogo.png" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
-<style>
-        header.masthead {
-            padding-top: 10.5rem;
-            padding-bottom: 6rem;
-            text-align: center;
-            color: #fff;
-            background-repeat: no-repeat;
-            background-attachment: scroll;
-            background-position: center center;
-            background-size: cover;
-            transition: background-image 1s ease-in-out;
-        }
+  <style>
+    :root {
+      --black:#fafaf8;--deep:#f0f0ec;--surface:#e8e8e3;--card:#dfdfd9;
+      --gold:#b8912e;--gold-lt:#c9a84c;--gold-dim:rgba(184,145,46,0.1);
+      --white:#1a1a18;--muted:#6a6a62;--border:rgba(184,145,46,0.22);
+      --serif:'Cormorant Garamond',Georgia,serif;--sans:'DM Sans',system-ui,sans-serif;
+      --ease:cubic-bezier(0.25,0.46,0.45,0.94);--ease-out:cubic-bezier(0.16,1,0.3,1);
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{background:var(--black);color:var(--white);font-family:var(--sans);font-weight:300;line-height:1.7;overflow-x:hidden}
+    img{display:block;max-width:100%}
+    a{text-decoration:none;color:inherit}
+    ::-webkit-scrollbar{width:3px}
+    ::-webkit-scrollbar-track{background:var(--black)}
+    ::-webkit-scrollbar-thumb{background:var(--gold)}
 
-        @keyframes fadeImages {
-            0% { opacity: 0; }
-            10% { opacity: 1; }
-            30% { opacity: 1; }
-            40% { opacity: 0; }
-            100% { opacity: 0; }
-        }
+    .container{max-width:1200px;margin:0 auto;padding:0 2rem}
+    .section-label{font-family:var(--sans);font-size:.68rem;font-weight:500;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin-bottom:.9rem;display:block}
+    .section-title{font-family:var(--serif);font-size:clamp(2rem,5vw,3.4rem);font-weight:300;line-height:1.12;color:var(--white);margin-bottom:1.2rem}
+    .section-title em{font-style:italic;color:var(--gold)}
+    .section-sub{font-size:.95rem;color:var(--muted);line-height:1.75}
+    .divider{width:44px;height:1px;background:var(--gold);margin:1.4rem 0}
+    .gold{color:var(--gold)}
 
-        .masthead::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            z-index: -1;
-            animation: fadeImages 30s infinite;
-        }
-    </style>
-    </head>
+    /* Reveal */
+    .reveal{opacity:0;transform:translateY(28px);transition:opacity .75s var(--ease-out),transform .75s var(--ease-out)}
+    .reveal.visible{opacity:1;transform:none}
+    .delay-1{transition-delay:.1s}.delay-2{transition-delay:.2s}.delay-3{transition-delay:.3s}.delay-4{transition-delay:.4s}
 
-    <body id="page-top">
-    <!-- Navigation-->
-    
-<!-- Top Contact Number Bar -->
-<!-- Top Contact Bar -->
-<div class="top-contact-bar bg-dark text-light py-1 small">
-  <div class="container d-flex justify-content-end align-items-center gap-3">
-    <a href="https://wa.me/250788642443" target="_blank" class="text-light text-decoration-none">
-      <i class="fab fa-whatsapp"></i>
-    </a>
-    <a href="https://www.instagram.com/eva.optical/" target="_blank" class="text-light text-decoration-none">
-      <i class="fab fa-instagram"></i>
-    </a>
-    <a href="tel:+250788642443" class="text-light text-decoration-none">
-      <i class="fas fa-phone"></i>
-    </a>
-    <a href="https://www.google.com/maps?q=La+Bonne+Adresse,+Sharma+Super+Market,+Kigali" target="_blank" class="text-light text-decoration-none">
-      <i class="fas fa-map-marker-alt"></i>
-    </a>
-  </div>
-</div>
+    /* ── NAV ── */
+    .nav{position:fixed;top:0;left:0;right:0;z-index:1000;transition:background .4s,border-color .4s;border-bottom:1px solid transparent}
+    .nav.scrolled{background:rgba(250,250,248,.95);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-color:var(--border)}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;height:70px}
+    .nav-logo img{height:42px;width:auto;transition:filter .3s}
+    .nav-logo img:hover{filter:brightness(0) saturate(100%) invert(55%) sepia(40%) saturate(500%) hue-rotate(5deg)}
+    .nav-links{display:flex;list-style:none;gap:2.4rem}
+.nav-links a {
+  font-size: .75rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: #ffffff; /* Change to white */
+  position: relative;
+  transition: color .3s;
+  padding-bottom: 3px;
+}
+    .nav-links a::after{content:'';position:absolute;bottom:0;left:0;width:0;height:1px;background:var(--gold);transition:width .3s var(--ease)}
+    .nav-links a:hover{color:var(--white)}
+    .nav-links a:hover::after{width:100%}
+    .nav-cta{display:inline-flex;align-items:center;gap:.5rem;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);border:1px solid var(--border);padding:.5rem 1.3rem;transition:background .3s,color .3s,border-color .3s}
+    .nav-cta:hover{background:var(--gold);color:#fafaf8;border-color:var(--gold)}
+    .hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:4px}
+    .hamburger span{display:block;width:22px;height:1px;background:var(--white);transition:transform .3s,opacity .3s}
+    .hamburger.open span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+    .hamburger.open span:nth-child(2){opacity:0}
+    .hamburger.open span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+    .mob-nav{display:none;position:fixed;top:70px;left:0;right:0;background:rgba(250,250,248,.97);backdrop-filter:blur(18px);border-bottom:1px solid var(--border);padding:2rem;z-index:999;opacity:0;transform:translateY(-8px);transition:opacity .3s,transform .3s}
+    .mob-nav.open{display:block;opacity:1;transform:none}
+    .mob-nav ul{list-style:none;display:flex;flex-direction:column;gap:1.4rem}
+    .mob-nav a{font-size:1.05rem;letter-spacing:.08em;color:rgba(245,245,240,.8)}
 
+    /* ── HERO ── */
+    .hero{position:relative;height:100svh;min-height:580px;display:flex;align-items:center;overflow:hidden}
+    .hero-slides{position:absolute;inset:0}
+    .hero-slide{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transition:opacity 1.5s var(--ease)}
+    .hero-slide.active{opacity:1}
+    .hero-overlay{
+  position:absolute;
+  inset:0;
+  background:linear-gradient(
+    130deg,
+    rgba(0,0,0,0.7) 0%,
+    rgba(0,0,0,0.5) 55%,
+    rgba(0,0,0,0.3) 100%
+  );
+}
+    .hero-content{position:relative;z-index:2;max-width:760px}
+    .hero-eyebrow{display:flex;align-items:center;gap:1rem;margin-bottom:1.8rem;opacity:0;animation:fadeUp 1s var(--ease-out) .2s forwards}
+    .eyebrow-line{width:36px;height:1px;background:var(--gold)}
+    .hero-eyebrow span{font-size:.68rem;letter-spacing:.3em;text-transform:uppercase;color:var(--gold)}
+    .hero-title{font-family:var(--serif);font-size:clamp(2.8rem,8vw,6rem);font-weight:300;line-height:1.05;margin-bottom:1.4rem;color:#1a1a18;opacity:0;animation:fadeUp 1s var(--ease-out) .4s forwards}
+    .hero-title em{font-style:italic;color:var(--gold)}
+    .hero-sub{font-size:1rem;color:rgba(26,26,24,.62);max-width:460px;margin-bottom:2.8rem;opacity:0;animation:fadeUp 1s var(--ease-out) .6s forwards}
+    .hero-btns{display:flex;gap:1.2rem;flex-wrap:wrap;opacity:0;animation:fadeUp 1s var(--ease-out) .8s forwards}
+    @keyframes fadeUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+    .btn-primary{display:inline-flex;align-items:center;gap:.55rem;background:var(--gold);color:var(--black);font-size:.75rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;padding:.95rem 2.1rem;transition:background .3s,transform .25s}
+    .btn-primary:hover{background:var(--gold-lt);transform:translateY(-2px)}
+    .btn-ghost{display:inline-flex;align-items:center;gap:.55rem;background:transparent;color:#1a1a18;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;padding:.95rem 2.1rem;border:1px solid rgba(26,26,24,.3);transition:border-color .3s,transform .25s}
+    .btn-ghost:hover{border-color:#1a1a18;transform:translateY(-2px)}
+    .hero-scroll{position:absolute;bottom:2.2rem;left:50%;transform:translateX(-50%);z-index:2;display:flex;flex-direction:column;align-items:center;gap:.4rem;opacity:0;animation:fadeUp 1s var(--ease-out) 1.2s forwards}
+    .hero-scroll span{font-size:.6rem;letter-spacing:.28em;text-transform:uppercase;color:var(--muted)}
+    .scroll-line{width:1px;height:44px;background:linear-gradient(to bottom,var(--gold),transparent);animation:pulse 2s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
+    .hero-dots{position:absolute;right:2.2rem;top:50%;transform:translateY(-50%);z-index:2;display:flex;flex-direction:column;gap:9px}
+    .hero-dot{width:5px;height:5px;border-radius:50%;background:rgba(26,26,24,.3);cursor:pointer;transition:background .3s,transform .3s}
+    .hero-dot.active{background:var(--gold);transform:scale(1.5)}
 
-<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top py-3">
+    /* ── STATS ── */
+    .stats-bar{background:var(--surface);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:2.4rem 0}
+    .stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2rem}
+    .stat-item{text-align:center;padding:.8rem;border-right:1px solid var(--border)}
+    .stat-item:last-child{border-right:none}
+    .stat-number{font-family:var(--serif);font-size:2.6rem;font-weight:300;color:var(--gold);line-height:1;margin-bottom:.35rem}
+    .stat-label{font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+
+    /* ── SERVICES ── */
+    .services-section{padding:7.5rem 0;background:var(--black)}
+    .services-header{display:grid;grid-template-columns:1fr 1fr;gap:3.5rem;margin-bottom:4.5rem;align-items:end}
+    .services-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border);border:1px solid var(--border)}
+    .service-card{background:var(--black);overflow:hidden;position:relative;transition:background .4s;cursor:pointer}
+    .service-card:hover{background:var(--surface)}
+    .service-img{width:100%;aspect-ratio:4/3;overflow:hidden}
+    .service-img img{width:100%;height:100%;object-fit:cover;transition:transform .7s var(--ease),filter .5s;filter:grayscale(35%) brightness(.8)}
+    .service-card:hover .service-img img{transform:scale(1.08);filter:grayscale(0%) brightness(.9)}
+    .service-body{padding:1.6rem}
+    .svc-icon{width:38px;height:38px;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;color:var(--gold);font-size:.9rem;margin-bottom:1.1rem;transition:background .3s,border-color .3s}
+    .service-card:hover .svc-icon{background:var(--gold-dim);border-color:var(--gold)}
+    .service-card h3{font-family:var(--serif);font-size:1.25rem;font-weight:400;margin-bottom:.65rem}
+    .service-card p{font-size:.85rem;color:var(--muted);line-height:1.65}
+    .svc-arrow{display:inline-flex;align-items:center;gap:.35rem;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-top:1.1rem;transition:gap .3s}
+    .service-card:hover .svc-arrow{gap:.75rem}
+
+    /* ── FRAMES ── */
+    .frames-section{padding:7.5rem 0;background:var(--deep)}
+    .frames-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:3rem;flex-wrap:wrap;gap:1.5rem}
+    .frames-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:230px;gap:7px}
+    .frame-item{overflow:hidden;position:relative;cursor:pointer}
+    .frame-item:nth-child(5){grid-column:span 2}
+    .frame-item img{width:100%;height:100%;object-fit:cover;transition:transform .7s var(--ease),filter .5s;filter:brightness(.8) grayscale(15%)}
+    .frame-item:hover img{transform:scale(1.07);filter:brightness(1) grayscale(0%)}
+    .frame-ov{position:absolute;inset:0;background:linear-gradient(to top,rgba(10,10,10,.55) 0%,transparent 55%);opacity:0;transition:opacity .4s}
+    .frame-item:hover .frame-ov{opacity:1}
+    .frames-cta{text-align:center;margin-top:2.8rem}
+    .frames-cta p{font-family:var(--serif);font-size:1.35rem;font-style:italic;color:var(--muted);margin-bottom:1.4rem}
+
+    /* ── ABOUT ── */
+    .about-section{padding:7.5rem 0;background:var(--black)}
+    .about-intro{display:grid;grid-template-columns:1fr 1fr;gap:5.5rem;align-items:center;margin-bottom:5.5rem}
+    .about-text p{font-size:.93rem;color:var(--muted);margin-bottom:1.1rem;line-height:1.82}
+    .about-text p strong{color:var(--white);font-weight:500}
+    .about-img-wrap{position:relative}
+    .about-img-wrap img{width:100%;height:460px;object-fit:cover;filter:grayscale(15%)}
+    .about-badge{position:absolute;bottom:-1.8rem;left:-1.8rem;background:var(--gold);color:var(--black);padding:1.6rem 2rem}
+    .badge-num{font-family:var(--serif);font-size:2.4rem;font-weight:300;line-height:1;display:block}
+    .badge-txt{font-size:.65rem;letter-spacing:.14em;text-transform:uppercase}
+
+    .branches-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border);border:1px solid var(--border);margin-top:4.5rem}
+    .branch-card{background:var(--surface);padding:2.4rem;transition:background .3s;position:relative;overflow:hidden}
+    .branch-card::before{content:'';position:absolute;top:0;left:0;width:2px;height:0;background:var(--gold);transition:height .4s var(--ease)}
+    .branch-card:hover::before{height:100%}
+    .branch-card:hover{background:var(--card)}
+    .branch-icon{font-size:1.1rem;color:var(--gold);margin-bottom:1.4rem}
+    .branch-card h3{font-family:var(--serif);font-size:1.45rem;font-weight:400;margin-bottom:.7rem}
+    .branch-card p{font-size:.85rem;color:var(--muted);line-height:1.65;margin-bottom:.9rem}
+    .branch-tel{font-size:.8rem;color:rgba(245,245,240,.6);margin-bottom:.3rem}
+    .branch-tel i{color:var(--gold);margin-right:.35rem}
+    .branch-map{display:inline-flex;align-items:center;gap:.35rem;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-top:1.1rem;transition:gap .3s}
+    .branch-map:hover{gap:.7rem}
+
+    .values-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.8rem;margin-top:4.5rem}
+    .value-card{border:1px solid var(--border);padding:2.3rem;transition:border-color .3s,background .3s}
+    .value-card:hover{border-color:var(--gold);background:var(--gold-dim)}
+    .val-num{font-family:var(--serif);font-size:2.8rem;font-weight:300;color:var(--border);line-height:1;margin-bottom:.9rem;transition:color .3s}
+    .value-card:hover .val-num{color:var(--gold)}
+    .value-card h4{font-family:var(--serif);font-size:1.25rem;font-weight:400;margin-bottom:.65rem}
+    .value-card p{font-size:.85rem;color:var(--muted)}
+
+    /* ── PARTNERS ── */
+    .partners-section{padding:5.5rem 0;background:var(--deep);overflow:hidden}
+    .partners-header{text-align:center;margin-bottom:3.2rem}
+    .partners-header .section-sub{margin:0 auto;text-align:center}
+    .ticker-wrap{overflow:hidden;position:relative;padding:1.8rem 0}
+    .ticker-wrap::before,.ticker-wrap::after{content:'';position:absolute;top:0;width:180px;height:100%;z-index:2}
+    .ticker-wrap::before{left:0;background:linear-gradient(to right,var(--deep),transparent)}
+    .ticker-wrap::after{right:0;background:linear-gradient(to left,var(--deep),transparent)}
+    .ticker-track{display:flex;gap:2.8rem;animation:ticker 36s linear infinite;width:max-content}
+    .ticker-track:hover{animation-play-state:paused}
+    @keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+    .partner-logo{height:50px;width:auto;filter:grayscale(100%) brightness(1.3) contrast(.8);transition:filter .3s;object-fit:contain;flex-shrink:0}
+    .ticker-track:hover .partner-logo{filter:grayscale(0%) brightness(1)}
+
+    /* ── TESTIMONIALS ── */
+    .testimonials-section{padding:7.5rem 0;background:var(--black)}
+    .testimonials-header{text-align:center;margin-bottom:3.8rem}
+    .testimonials-header .section-sub{margin:0 auto;text-align:center}
+    .reviews-widget-wrap{max-width:1100px;margin:0 auto;background:var(--surface);border:1px solid var(--border);padding:2rem;overflow:hidden}
+
+    /* ── CONTACT ── */
+    .contact-section{padding:7.5rem 0 0;background:var(--deep)}
+    .contact-head{text-align:center;margin-bottom:3.5rem}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--border)}
+    .c-info{padding:3.8rem;border-right:1px solid var(--border)}
+    .c-info h2{font-family:var(--serif);font-size:2.3rem;font-weight:300;margin-bottom:1.4rem;line-height:1.2}
+    .c-info p{font-size:.9rem;color:var(--muted);margin-bottom:2.3rem;line-height:1.82}
+    .c-detail{display:flex;align-items:flex-start;gap:.9rem;padding:1.1rem 0;border-bottom:1px solid var(--border)}
+    .c-detail:last-child{border-bottom:none}
+    .c-detail-icon{width:34px;height:34px;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;color:var(--gold);font-size:.8rem;flex-shrink:0;margin-top:2px}
+    .c-detail-txt strong{display:block;font-size:.65rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:.2rem}
+    .c-detail-txt span{font-size:.88rem;color:rgba(245,245,240,.78)}
+    .c-forms{padding:3.8rem}
+    .c-forms h3{font-family:var(--serif);font-size:1.75rem;font-weight:300;margin-bottom:1.8rem}
+    .form-tabs{display:flex;border-bottom:1px solid var(--border);margin-bottom:1.8rem}
+    .form-tab{font-size:.72rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);padding:.7rem 1.4rem;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;transition:color .3s,border-color .3s}
+    .form-tab.active{color:var(--gold);border-color:var(--gold)}
+    .form-panel{display:none}
+    .form-panel.active{display:block}
+    .form-group{margin-bottom:1.15rem}
+    .form-label{display:block;font-size:.65rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:.45rem}
+    .form-control{width:100%;background:var(--surface);border:1px solid var(--border);color:var(--white);font-family:var(--sans);font-size:.88rem;padding:.8rem .95rem;transition:border-color .3s;outline:none;border-radius:0;-webkit-appearance:none}
+    .form-control:focus{border-color:var(--gold)}
+    .form-control option{background:var(--surface);color:var(--white)}
+    textarea.form-control{resize:vertical;min-height:110px}
+    .form-submit{width:100%;background:var(--gold);color:var(--black);border:none;font-family:var(--sans);font-size:.75rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;padding:.95rem;cursor:pointer;transition:background .3s,transform .2s}
+    .form-submit:hover{background:var(--gold-lt);transform:translateY(-1px)}
+
+    /* ── FOOTER ── */
+    .footer{background:var(--black);border-top:1px solid var(--border);padding:5rem 0 2rem}
+    .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:3.5rem;margin-bottom:3.5rem}
+    .footer-brand img{height:38px;margin-bottom:1.3rem}
+    .footer-brand p{font-size:.85rem;color:var(--muted);line-height:1.72;max-width:270px}
+    .footer-social{display:flex;gap:.65rem;margin-top:1.8rem}
+    .social-btn{width:34px;height:34px;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:.8rem;color:var(--muted);transition:border-color .3s,color .3s,background .3s}
+    .social-btn:hover{border-color:var(--gold);color:var(--gold);background:var(--gold-dim)}
+    .footer-col h5{font-size:.65rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);margin-bottom:1.4rem}
+    .footer-links{list-style:none;display:flex;flex-direction:column;gap:.7rem}
+    .footer-links a{font-size:.85rem;color:var(--muted);transition:color .3s}
+    .footer-links a:hover{color:var(--white)}
+    .footer-bottom{border-top:1px solid var(--border);padding-top:1.8rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+    .footer-bottom p{font-size:.75rem;color:var(--muted)}
+    .footer-bottom a{color:var(--gold)}
+
+    /* ── FLOAT BUTTONS ── */
+    .wa-float{position:fixed;bottom:2rem;right:2rem;z-index:900;width:52px;height:52px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.3rem;color:white;box-shadow:0 4px 18px rgba(37,211,102,.38);transition:transform .3s,box-shadow .3s}
+    .wa-float:hover{transform:scale(1.1);box-shadow:0 6px 26px rgba(37,211,102,.55)}
+
+    /* ── RESPONSIVE ── */
+    @media(max-width:1024px){
+      .services-grid{grid-template-columns:repeat(2,1fr)}
+      .frames-grid{grid-template-columns:repeat(3,1fr)}
+      .stats-grid{grid-template-columns:repeat(2,1fr)}
+      .stat-item:nth-child(2){border-right:none}
+      .footer-grid{grid-template-columns:1fr 1fr;gap:2rem}
+      .branches-grid{grid-template-columns:1fr}
+      .values-grid{grid-template-columns:1fr}
+    }
+    @media(max-width:768px){
+      .nav-links,.nav-cta{display:none}
+      .hamburger{display:flex}
+      .hero-title{font-size:clamp(2.4rem,9vw,3.8rem)}
+      .services-header{grid-template-columns:1fr;gap:1.2rem}
+      .about-intro{grid-template-columns:1fr;gap:2.8rem}
+      .about-badge{left:.8rem;bottom:.8rem}
+      .frames-grid{grid-template-columns:repeat(2,1fr)}
+      .frames-header{flex-direction:column;align-items:flex-start}
+      .contact-grid{grid-template-columns:1fr}
+      .c-info{border-right:none;border-bottom:1px solid var(--border)}
+      .c-info,.c-forms{padding:2.3rem}
+      .footer-grid{grid-template-columns:1fr;gap:1.8rem}
+      .footer-bottom{flex-direction:column;text-align:center}
+      .hero-dots{display:none}
+      .stats-grid{grid-template-columns:repeat(2,1fr)}
+      .stat-item:nth-child(2){border-right:none}
+      .stat-item:nth-child(4){border-right:none}
+    }
+    @media(max-width:480px){
+      .container{padding:0 1.2rem}
+      .services-grid,.frames-grid{grid-template-columns:1fr}
+      .frame-item:nth-child(5){grid-column:span 1}
+      .hero-btns{flex-direction:column}
+      .btn-primary,.btn-ghost{width:100%;justify-content:center}
+      .stats-grid{grid-template-columns:1fr 1fr}
+    }
+    /* This ensures links turn black when you scroll down */
+.nav.scrolled .nav-links a {
+  color: #1a1a18; 
+}
+
+/* Optional: keeps the hover effect working on the black text */
+.nav.scrolled .nav-links a:hover {
+  color: var(--gold);
+}
+/* Initial State (at the top) */
+.nav-logo .logo-dark {
+  display: none;
+}
+.nav-logo .logo-light {
+  display: block;
+}
+
+/* Scrolled State (after scrolling down) */
+.nav.scrolled .nav-logo .logo-light {
+  display: none;
+}
+.nav.scrolled .nav-logo .logo-dark {
+  display: block;
+}
+  </style>
+</head>
+<body id="page-top">
+
+<!-- NAV -->
+<nav class="nav" id="mainNav">
   <div class="container">
-    <a class="navbar-brand fw-bold text-dark" href="index.html"> <img src="Eva logo.png"> </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
-      <ul class="navbar-nav gap-3">
-        <li class="nav-item">
-          <a class="nav-link active text-dark" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active text-dark" href="#services">Services</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link active text-dark" href="#portfolio">Frames</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active text-dark" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active text-dark" href="#contact">Contact</a>
-        </li>
+    <div class="nav-inner">
+<a class="nav-logo" href="#page-top">
+  <img src="evalogo white.png" alt="Eva Optical" class="logo-light" />
+  <img src="eva logo.png" alt="Eva Optical" class="logo-dark" />
+</a>      <ul class="nav-links">
+        <li><a href="#page-top">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Frames</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
+      <a class="nav-cta" href="#contact">Book Appointment &rarr;</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </div>
 </nav>
+<div class="mob-nav" id="mobNav" >
+  <ul>
+    <li><a href="#page-top" class="mob-link" style="color: white;">Home</a></li>
+    <li><a href="#services" class="mob-link">Services</a></li>
+    <li><a href="#portfolio" class="mob-link">Frames</a></li>
+    <li><a href="#about" class="mob-link">About</a></li>
+    <li><a href="#contact" class="mob-link">Contact</a></li>
+  </ul>
+</div>
 
-
-
-        <!-- Masthead-->
-      <header class="masthead" id="dynamic-masthead">
-        <div class="container">
-            <div class="masthead-subheading">Welcome to Eva Optical – Where Vision Meets Precision</div> 
-<h2 class="optical-heading">
-  <span class="clarity">Clarity</span>. 
-  <span class="comfort">Comfort</span>. 
-  <span class="confidence">Confidence</span>.
-</h2>
-            <div class="masthead-heading text-uppercase">
-    </header>
-
-
-
-        <!-- Services-->
-        <section class="page-section" id="services">
-            <div class="container">
-                 <section id="targetSection-services" class="services-section">
+<!-- HERO -->
+<header class="hero" id="hero">
+  <div class="hero-slides" id="heroSlides">
+    <div class="hero-slide active" style="background-image:url('image1.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('image2.jpg')"></div>
+  </div>
+  <div class="hero-overlay"></div>
   <div class="container">
-    <div class="section-header">
-      <h1 class="section-title">Our <span>Services</span></h1>
-      <p class="section-subtitle">Delivering Clear Vision with Professional Care</p>
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <div class="eyebrow-line"></div>
+        <span>Welcome to Eva Optical Rwanda</span>
+      </div>
+      <h1 class="hero-title" style="color: white;">Clarity.<br/><em>Comfort.</em><br/>Confidence.</h1>
+      <p class="hero-sub" style="color: white;">Premium eye care, precision-crafted lenses, and curated frames — where vision meets artistry.</p>
+      <div class="hero-btns">
+        <a href="#services" class="btn-primary">Explore Services &rarr;</a>
+        <a href="#contact" class="btn-ghost" style="color: white;">Book Eye Test</a>
+      </div>
     </div>
+  </div>
+  <div class="hero-dots" id="heroDots"></div>
+  <div class="hero-scroll">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</header>
 
+<!-- STATS -->
+<div class="stats-bar">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item reveal"><div class="stat-number">10+</div><div class="stat-label">Years of Excellence</div></div>
+      <div class="stat-item reveal delay-1"><div class="stat-number">3</div><div class="stat-label">Branches Nationwide</div></div>
+      <div class="stat-item reveal delay-2"><div class="stat-number">20+</div><div class="stat-label">Insurance Partners</div></div>
+      <div class="stat-item reveal delay-3"><div class="stat-number">20k+</div><div class="stat-label">Clients Served</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section class="services-section" id="services">
+  <div class="container">
+    <div class="services-header">
+      <div class="reveal">
+        <span class="section-label">What We Offer</span>
+        <h2 class="section-title">Our <em>Services</em></h2>
+      </div>
+      <div class="reveal delay-1">
+        <div class="divider"></div>
+        <p class="section-sub">Crystal-clear vision through professional care and the finest optical expertise in Rwanda.</p>
+      </div>
+    </div>
     <div class="services-grid">
-      <div class="service-card">
-        <img src="eyetesting.jpeg" alt="Eye Testing">
-        <h2>Eye Testing</h2>
-        <p>Accurate, expert eye exams using modern equipment to ensure your vision is perfectly assessed.</p>
+      <div class="service-card reveal">
+        <div class="service-img"><img src="eyetesting.jpeg" alt="Eye Testing" /></div>
+        <div class="service-body">
+          <div class="svc-icon"><i class="fas fa-eye"></i></div>
+          <h3>Eye Testing</h3>
+          <p>Accurate, expert eye exams using modern equipment to ensure your vision is perfectly assessed.</p>
+          <div class="svc-arrow">Learn more <i class="fas fa-arrow-right fa-xs"></i></div>
+        </div>
       </div>
-
-      <div class="service-card">
-        <img src="Eyeglasses.jpeg" alt="Eyeglasses Provision">
-        <h2>Eyeglasses Provision</h2>
-        <p>Tailored prescription glasses with stylish, high-quality frames for every lifestyle.</p>
+      <div class="service-card reveal delay-1">
+        <div class="service-img"><img src="Eyeglasses.jpeg" alt="Eyeglasses Provision" /></div>
+        <div class="service-body">
+          <div class="svc-icon"><i class="fas fa-glasses"></i></div>
+          <h3>Eyeglasses Provision</h3>
+          <p>Tailored prescription glasses with stylish, high-quality frames for every lifestyle and personality.</p>
+          <div class="svc-arrow">Learn more <i class="fas fa-arrow-right fa-xs"></i></div>
+        </div>
       </div>
-
-      <div class="service-card">
-        <img src="spectacle fitting.jpeg" alt="Spectacle Fitting">
-        <h2>Spectacle Fitting</h2>
-        <p>Personalized fittings for maximum comfort and precision in everyday wear.</p>
+      <div class="service-card reveal delay-2">
+        <div class="service-img"><img src="spectacle fitting.jpeg" alt="Spectacle Fitting" /></div>
+        <div class="service-body">
+          <div class="svc-icon"><i class="fas fa-ruler"></i></div>
+          <h3>Spectacle Fitting</h3>
+          <p>Personalized fittings for maximum comfort and precision in everyday wear — perfectly adjusted for you.</p>
+          <div class="svc-arrow">Learn more <i class="fas fa-arrow-right fa-xs"></i></div>
+        </div>
       </div>
-
-      <div class="service-card">
-        <img src="contactlense.jpeg" alt="Contact Lens Fitting">
-        <h2>Contact Lens Fitting</h2>
-        <p>Custom contact lenses fitted professionally to match your unique vision and comfort needs.</p>
+      <div class="service-card reveal delay-3">
+        <div class="service-img"><img src="contactlense.jpeg" alt="Contact Lens Fitting" /></div>
+        <div class="service-body">
+          <div class="svc-icon"><i class="far fa-dot-circle"></i></div>
+          <h3>Contact Lens Fitting</h3>
+          <p>Custom contact lenses fitted professionally to match your unique vision and comfort needs.</p>
+          <div class="svc-arrow">Learn more <i class="fas fa-arrow-right fa-xs"></i></div>
+        </div>
       </div>
     </div>
   </div>
 </section>
-                </div>
-            </div>
-        </section>
-        <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Frames</h2>
-                    <h3 class="section-subheading text-muted">Discover perfect frame for your self.</h3>
-                </div>
-       <section class="frame-gallery">
-        <div class="frame-card">
-            <img src="WhatsApp Image 2025-01-03 at 4.35.39 PM.jpeg" alt="Frame 1">
-        </div>
-        <div class="frame-card">
-            <img src="WhatsApp Image 2025-01-03 at 4.34.57 PM 15.09.33.jpeg" alt="Frame 2">
-        </div>
-        <div class="frame-card">
-            <img src="WhatsApp Image 2025-01-03 at 4.35.00 PM 15.09.33.jpeg" alt="Frame 3">
-        </div>
-        <div class="frame-card">
-            <img src="WhatsApp Image 2025-01-03 at 4.35.23 PM 15.09.33.jpeg" alt="Frame 4">
-        </div>
-        <div class="frame-card">
-            <img src="WhatsApp Image 2025-01-03 at 4.35.39 PM.jpeg">
-        </div>
-        <div class="frame-card">
-            <img src="WhatsApp Image 2025-01-03 at 4.35.14 PM.jpeg">
-        </div>
-  
-          <div class="frame-card">
-            <img src="DSC_0627 copy.JPG">
-        </div>
-                  <div class="frame-card">
-            <img src="DSC_0630.JPG">
-        </div>
-                  <div class="frame-card">
-            <img src="DSC_0631.JPG">
-        </div>
-                  <div class="frame-card">
-            <img src="DSC_0627 copy.JPG">
-        </div>
-                  <div class="frame-card">
-            <img src="DSC_0617.JPG">
-</div>
-<h3 style="text-align: center;">visit us for more stylish frames</h3>
 
-    </section>
-        </section>
-     <!-- About Eva Optical -->
-<section class="page-section" id="about">
+<!-- FRAMES -->
+<section class="frames-section" id="portfolio">
   <div class="container">
-    <div class="text-center">
-      <h2 class="section-heading text-uppercase">OUR PROFILE</h2>
-      <h3 class="section-subheading text-muted">Bringing clarity to your vision with precision and care.</h3>
+    <div class="frames-header">
+      <div class="reveal">
+        <span class="section-label">Curated Collection</span>
+        <h2 class="section-title">Premium <em>Frames</em></h2>
+      </div>
+      <p class="section-sub reveal delay-1" style="max-width:340px;text-align:right">Discover the perfect frame that defines your style and elevates your presence.</p>
     </div>
-    <ul class="timeline">
-
-      <!-- Gisenyi Branch -->
-      <li>
-        <div class="timeline-image"></div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-            <h4 class="subheading">Gisenyi Branch</h4>
-          </div>
-          <div class="timeline-body">
-            <p class="text-muted">
-              Our Gisenyi branch offers the same trusted optical services—right by the lake in the heart of Rubavu.
-              We provide eye testing, prescription glasses, and frame fittings with precision and care.
-              <br>Second floor of UBUNTU HOUSE<br>
-              📞 Contact: 0787764713 / 0783473195
-              <br><br>
-              📍 <a href="https://www.google.com/maps/place/EVA+OPTICAL+LTD/@-1.5089486,29.6392807,17z/data=!3m1!4b1!4m6!3m5!1s0x19dc5b784cde6e67:0xf5510bd267119370!8m2!3d-1.508954!4d29.6418556!16s%2Fg%2F11p12r3v05?entry=ttu&g_ep=EgoyMDI1MDcyNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="color: #007bff; text-decoration: underline;">Find us on Google Maps</a>
-            </p>
-          </div>
-        </div>
-      </li>
-
-      <!-- Musanze Branch -->
-      <li class="timeline-inverted">
-        <div class="timeline-image"></div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-            <h4 class="subheading">Musanze Branch</h4>
-          </div>
-          <div class="timeline-body">
-            <p class="text-muted">
-              Our Musanze branch is your go-to center for high-quality eye care in the Northern Province. Located conveniently for locals and visitors alike, we provide modern eye testing, stylish frames, and personalized services.
-              <br> Musanze city near Equity <br>
-              📞 Contact: 0785204171 / 0784408027
-              <br><br>
-              📍 <a href="https://www.google.com/maps/place//@-1.5087947,29.6393231,17z/data=!4m6!1m5!3m4!2zMcKwMzAnMzEuNyJTIDI5wrAzOCczMC44IkU!8m2!3d-1.5087947!4d29.641898?hl=en&entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="color: #007bff; text-decoration: underline;">Find us on Google Maps</a>
-            </p>
-          </div>
-        </div>
-      </li>
-
-      <!-- Mission -->
-      <li>
-        <div class="timeline-image"></div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-            <h4 class="subheading">Our Mission</h4>
-          </div>
-          <div class="timeline-body">
-            <p class="text-muted">To provide reliable, affordable, and professional optical solutions, helping every client see better and feel more confident—through quality lenses, frames, and eye care consultations.</p>
-          </div>
-        </div>
-      </li>
-
-      <!-- Values -->
-      <li class="timeline-inverted">
-        <div class="timeline-image"></div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-            <h4 class="subheading">Our Values</h4>
-          </div>
-          <div class="timeline-body">
-            <p class="text-muted">Integrity, care, innovation, and excellence guide every service we provide. We treat our clients like family and ensure they receive expert attention and high-quality products every time.</p>
-          </div>
-        </div>
-      </li>
-
-      <!-- Location -->
-      <li>
-        <div class="timeline-image">
-          <img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="Location" />
-        </div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-            <h4 class="subheading">Our Location</h4>
-          </div>
-          <div class="timeline-body">
-            <p class="text-muted">
-              We are conveniently located in the northern part of UTC building, inside <strong>La Bonne Adresse Building</strong>, on the <strong>2nd floor of Sharma Super Market</strong>. Visit us for expert optical services in the heart of Kigali.
-            </p>
-            <a href="https://www.google.com/maps?q=Eva+Optical+Kigali+Rwanda" target="_blank">Find us on Google Maps</a>
-          </div>
-        </div>
-      </li>
-
-      <!-- Join Us -->
-      <li class="timeline-inverted">
-        <div class="timeline-image">
-          <h4>
-            Be Part
-            <br />
-            Of Our
-            <br />
-            Story!
-          </h4>
-        </div>
-      </li>
-
-    </ul>
+    <div class="frames-grid">
+      <div class="frame-item reveal"><img src="mage 02.jpg" alt="Frame" /><div class="frame-ov"></div></div>
+      <div class="frame-item reveal delay-1"><img src="mage 03.jpg" alt="Frame" /><div class="frame-ov"></div></div>
+      <div class="frame-item reveal delay-2"><img src="mage 04.jpg" alt="Frame" /><div class="frame-ov"></div></div>
+      <div class="frame-item reveal delay-3"><img src="mage 05.jpg" alt="Frame" /><div class="frame-ov"></div></div>
+      <div class="frame-item reveal"><img src="mage 06.jpg" alt="Frame" /><div class="frame-ov"></div></div>
+      <div class="frame-item reveal delay-1"><img src="mage 07.jpg" alt="Frame" /><div class="frame-ov"></div></div>
+      <div class="frame-item reveal delay-2"><img src="mage 09.jpg" alt="Frame" /><div class="frame-ov"></div></div>
+      <div class="frame-item reveal delay-3"><img src="mage 10.jpg" alt="Frame" /><div class="frame-ov"></div></div>
+      <div class="frame-item reveal"><img src="mage 11.jpg" alt="Frame" /><div class="frame-ov"></div></div>
+      <div class="frame-item reveal delay-1"><img src="mage 12.jpg" alt="Frame" /><div class="frame-ov"></div></div>
+      <div class="frame-item reveal delay-2"><img src="mage 13.jpg" alt="Frame" /><div class="frame-ov"></div></div>
+      <div class="frame-item reveal delay-3"><img src="mage 14.jpg" alt="Frame" /><div class="frame-ov"></div></div>
+    </div>
+    <div class="frames-cta reveal">
+      <p>Visit our showroom to discover even more exclusive styles</p>
+      <a href="#contact" class="btn-ghost">Book a Visit &rarr;</a>
+    </div>
   </div>
 </section>
 
-        <!-- Team-->
-        
-        <!-- Clients-->
-    <h1 class="section-title">our <span>Partners</span></h1>
-
-      <div class="logos">
-      <div class="logos-slide">
-        <img src="rssb.png" >
-        <img src="mmi 2.png" >
-        <img src="saham.png" >
-        <img src="sonarwa.png" >
-        <img src="soras.png" >
-        <img src="britam.png" >
-        <img src="bupa.png" >
-        <img src="11._RWANDA_BAR_ASSOCIATION.png">
-        <img src="eden_care.png">
-        <img src="ITM_AFRICA.png">
-        <img src="mis_ur.png">
-        <img src="NETIS_RWANDA.png">
-        <img src="oldmutual.png">
-        <img src="P.E.A.C.E PLAN.png">
-        <img src="PACTILIS.png">
-        <img src="prime.png">
-        <img src="RADIANT.png">
-        <img src="RDRC.png">
-        <img src="sanlam.png">
-        <img src="UOB.png">
+<!-- ABOUT -->
+<section class="about-section" id="about">
+  <div class="container">
+    <div class="about-intro">
+      <div class="about-text reveal">
+        <span class="section-label">Our Story</span>
+        <h2 class="section-title">Vision <em>Elevated</em><br/>to an Art</h2>
+        <div class="divider"></div>
+        <p>Eva Optical is Rwanda's trusted name in premium eye care — a destination where precision optical science meets refined craftsmanship. From Kigali to Gisenyi to Musanze, we bring world-class vision care to every corner of the country.</p>
+        <p><strong>Our mission:</strong> to provide reliable, affordable, and professional optical solutions, helping every client see better and feel more confident — through quality lenses, frames, and expert consultations.</p>
+        <p><strong>Our values:</strong> integrity, care, innovation, and excellence guide every service we provide. We treat our clients like family and ensure they receive expert attention every time.</p>
+        <a href="#contact" class="btn-primary" style="margin-top:1.4rem;display:inline-flex">Get in Touch &rarr;</a>
       </div>
-
-      <div class="logos-slide">
-          <img src="rssb.png" >
-        <img src="mmi 2.png" >
-        <img src="saham.png" >
-        <img src="sonarwa.png" >
-        <img src="soras.png" >
-        <img src="britam.png" >
-        <img src="bupa.png" >
-        <img src="11._RWANDA_BAR_ASSOCIATION.png">
-        <img src="eden_care.png">
-        <img src="ITM_AFRICA.png">
-        <img src="mis_ur.png">
-        <img src="NETIS_RWANDA.png">
-        <img src="oldmutual.png">
-        <img src="P.E.A.C.E PLAN.png">
-        <img src="PACTILIS.png">
-        <img src="prime.png">
-        <img src="RADIANT.png">
-        <img src="RDRC.png">
-        <img src="sanlam.png">
-        <img src="UOB.png">
+      <div class="about-img-wrap reveal delay-2">
+        <div class="about-badge">
+          <span class="badge-num"></span>
+          <span class="badge-txt"></span>
+        </div>
       </div>
-
-    </div>
-    <!--End start of our insuarance-->
-    <!-- Start of Eva Optical Testimonials -->
-<section class="testimonial-section">
-  <h2>What Our Clients Say</h2>
-  <p class="subtitle">Real experiences from people who trusted Eva Optical for their vision</p>
-
-  <div class="testimonial-grid">
-    <div class="testimonial-card">
-      <img src="20250801_0854_image.png" alt="Grace U. photo">
-      <h3>Grace U.</h3>
-      <span>Kigali, Rwanda</span>
-      <p>
-        “Eva Optical helped me find frames that actually fit my face and my style. The staff was friendly, patient, and really listened. I get compliments on my glasses all the time now!”
-      </p>
     </div>
 
-    <div class="testimonial-card">
-      <img src="teen3.png" alt="Eric N. photo">
-      <h3>Eric N.</h3>
-      <span>Rubavu, Rwanda</span>
-      <p>
-        “I didn’t know how much I was missing until I got my new glasses from Eva Optical. The eye exam was quick and professional, and the difference in clarity is amazing. Highly recommend.”
-      </p>
+    <div class="reveal">
+      <span class="section-label">Our Locations</span>
+      <h2 class="section-title">Find Us <em>Near You</em></h2>
+    </div>
+    <div class="branches-grid">
+      <div class="branch-card reveal">
+        <div class="branch-icon"><i class="fas fa-map-marker-alt"></i></div>
+        <h3>Kigali Branch</h3>
+        <p>Northern part of UTC Building, inside <strong style="color:var(--white)">La Bonne Adresse Building</strong>, 2nd floor of Sharma Super Market — the heart of Kigali.</p>
+        <div class="branch-tel" style="color:black ;"><i class="fas fa-phone"></i>+250 788 642 443</div>
+        <div class="branch-tel" style="color:black ;"><i class="fas fa-phone"></i>+250 781 212 474</div>
+        <div class="branch-tel" style="color:black ;"><i class="fas fa-phone"></i>+250 788 683 836</div>
+        <a class="branch-map" href="https://www.google.com/maps?q=La+Bonne+Adresse,+Sharma+Super+Market,+Kigali" target="_blank">View on Maps <i class="fas fa-external-link-alt fa-xs"></i></a>
+      </div>
+      <div class="branch-card reveal delay-1">
+        <div class="branch-icon"><i class="fas fa-map-marker-alt"></i></div>
+        <h3>Gisenyi Branch</h3>
+        <p>Right by the lake in the heart of Rubavu — offering the same trusted optical services with precision and care.</p>
+        <div class="branch-tel"  style="color:black ;"><i class="fas fa-phone"></i>0787 764 713</div>
+        <div class="branch-tel" style="color:black ;"><i class="fas fa-phone"></i>0783 473 195</div>
+        <a class="branch-map" href="https://www.google.com/maps/place/EVA+OPTICAL+LTD/@-1.5089486,29.6392807,17z" target="_blank">View on Maps <i class="fas fa-external-link-alt fa-xs"></i></a>
+      </div>
+      <div class="branch-card reveal delay-2">
+        <div class="branch-icon"><i class="fas fa-map-marker-alt"></i></div>
+        <h3>Musanze Branch</h3>
+        <p>Your go-to centre for high-quality eye care in the Northern Province — convenient for locals and visitors alike.</p>
+        <div class="branch-tel"  style="color:black ;"><i class="fas fa-phone"></i>0785 204 171</div>
+        <div class="branch-tel"  style="color:black ;"><i class="fas fa-phone"></i>0784 408 027</div>
+        <a class="branch-map" href="https://www.google.com/maps?q=Eva+Optical+Musanze+Rwanda" target="_blank">View on Maps <i class="fas fa-external-link-alt fa-xs"></i></a>
+      </div>
     </div>
 
-    <div class="testimonial-card">
-      <img src="WhatsApp Image 2025-01-03 at 4.24.20 PM.jpeg" alt="Linda K. photo">
-      <h3>Linda K.</h3>
-      <span>Huye, Rwanda</span>
-      <p>
-        “I loved how clean and modern the Eva Optical shop was. Their team helped me choose the perfect frame that matched my personality. I felt valued and stylish walking out.”
-      </p>
+    <div style="margin-top:5rem" class="reveal">
+      <span class="section-label">Why Choose Us</span>
+      <h2 class="section-title">Why <em>Eva Optical</em></h2>
+      <p class="section-sub" style="max-width:560px">We don't just correct vision — we elevate it. Here's what sets us apart from the rest.</p>
+    </div>
+    <div class="values-grid">
+      <div class="value-card reveal">
+        <div class="val-num">01</div>
+        <h4>Integrity</h4>
+        <p>We are honest and transparent in every interaction — from prescriptions to pricing.</p>
+      </div>
+      <div class="value-card reveal delay-1">
+        <div class="val-num">02</div>
+        <h4>Excellence</h4>
+        <p>Only the finest lenses, frames, and equipment meet our standards of quality.</p>
+      </div>
+      <div class="value-card reveal delay-2">
+        <div class="val-num">03</div>
+        <h4>Care</h4>
+        <p>Every client is treated like family — attentive, personal, professional service always.</p>
+      </div>
+      <div class="value-card reveal delay-3">
+        <div class="val-num">04</div>
+        <h4>Innovation</h4>
+        <p>We embrace modern technology and stay ahead with the latest optical advancements.</p>
+      </div>
     </div>
   </div>
 </section>
-<!-- End of Eva Optical Testimonials -->
 
-        <!-- Contact-->
-<section class="page-section" id="contact">
-    <div class="contact-form-container">
-      <h1>Email Us</h1>
-      <form action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="b165cc61-a887-42fb-98b1-1a1c4581675e">
-
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Your Name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Your Email" required>
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
-
-        <button type="submit">Send Message</button>
-      </form>
-      <small>Powered by Web3Forms</small>
+<!-- PARTNERS -->
+<section class="partners-section">
+  <div class="container">
+    <div class="partners-header reveal">
+      <span class="section-label" style="display:block;text-align:center">Trusted By</span>
+      <h2 class="section-title" style="text-align:center">Insurance <em>Partners</em></h2>
+      <p class="section-sub" style="max-width:520px;margin:0 auto;text-align:center">We work with Rwanda's leading insurance providers so your eye care is always covered.</p>
     </div>
+  </div>
+  <div class="ticker-wrap">
+    <div class="ticker-track">
+      <img class="partner-logo" src="rssb.png" alt="RSSB" /><img class="partner-logo" src="mmi 2.png" alt="MMI" /><img class="partner-logo" src="saham.png" alt="Saham" /><img class="partner-logo" src="sonarwa.png" alt="Sonarwa" /><img class="partner-logo" src="soras.png" alt="Soras" /><img class="partner-logo" src="britam.png" alt="Britam" /><img class="partner-logo" src="bupa.png" alt="Bupa" /><img class="partner-logo" src="11._RWANDA_BAR_ASSOCIATION.png" alt="Rwanda Bar Association" /><img class="partner-logo" src="eden_care.png" alt="Eden Care" /><img class="partner-logo" src="ITM_AFRICA.png" alt="ITM Africa" /><img class="partner-logo" src="mis_ur.png" alt="MIS-UR" /><img class="partner-logo" src="NETIS_RWANDA.png" alt="Netis Rwanda" /><img class="partner-logo" src="oldmutual.png" alt="Old Mutual" /><img class="partner-logo" src="P.E.A.C.E PLAN.png" alt="PEACE Plan" /><img class="partner-logo" src="pactilis.png" alt="Pactilis" /><img class="partner-logo" src="prime.png" alt="Prime" /><img class="partner-logo" src="RADIANT.png" alt="Radiant" /><img class="partner-logo" src="RDRC.png" alt="RDRC" /><img class="partner-logo" src="sanlam.png" alt="Sanlam" /><img class="partner-logo" src="UOB.png" alt="UOB" />
+      <!-- duplicate for seamless loop -->
+      <img class="partner-logo" src="rssb.png" alt="RSSB" /><img class="partner-logo" src="mmi 2.png" alt="MMI" /><img class="partner-logo" src="saham.png" alt="Saham" /><img class="partner-logo" src="sonarwa.png" alt="Sonarwa" /><img class="partner-logo" src="soras.png" alt="Soras" /><img class="partner-logo" src="britam.png" alt="Britam" /><img class="partner-logo" src="bupa.png" alt="Bupa" /><img class="partner-logo" src="11._RWANDA_BAR_ASSOCIATION.png" alt="Rwanda Bar Association" /><img class="partner-logo" src="eden_care.png" alt="Eden Care" /><img class="partner-logo" src="ITM_AFRICA.png" alt="ITM Africa" /><img class="partner-logo" src="mis_ur.png" alt="MIS-UR" /><img class="partner-logo" src="NETIS_RWANDA.png" alt="Netis Rwanda" /><img class="partner-logo" src="oldmutual.png" alt="Old Mutual" /><img class="partner-logo" src="P.E.A.C.E PLAN.png" alt="PEACE Plan" /><img class="partner-logo" src="pactilis.png" alt="Pactilis" /><img class="partner-logo" src="prime.png" alt="Prime" /><img class="partner-logo" src="RADIANT.png" alt="Radiant" /><img class="partner-logo" src="RDRC.png" alt="RDRC" /><img class="partner-logo" src="sanlam.png" alt="Sanlam" /><img class="partner-logo" src="UOB.png" alt="UOB" />
+    </div>
+  </div>
+</section>
 
+<!-- TESTIMONIALS -->
+<section class="testimonials-section" id="testimonials">
+  <div class="container">
+    <div class="testimonials-header reveal">
+      <span class="section-label" style="display:block;text-align:center">Client Stories</span>
+      <h2 class="section-title" style="text-align:center">What Our <em>Clients</em> Say</h2>
+      <p class="section-sub" style="max-width:480px;margin:0 auto;text-align:center">Real experiences from real people who trust Eva Optical.</p>
+    </div>
+    <div class="reviews-widget-wrap reveal">
+      <div id="featurable-ecc21f22-fa03-436f-84d4-3be3c1d17a33" data-featurable-async></div>
+      <script src="https://featurable.com/assets/bundle.js" defer charset="UTF-8"></script>
+    </div>
+  </div>
+</section>
 
-
-<!--whatsapp--->
-            <div class="Whatsapp">
-                
-                         <div class="top-h1" id="targetSection-contacts" style="margin-top: 0px;"><h1><span>Contact </span> us</h1></div>
- <div class="container register">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel"
-                    aria-labelledby="home-tab">
-                    <h3 class="register-headingtext-nowrap">contact us via whatsapp</h3>
-                    <div class="row register-form">
-                        <div class="col-md-12">
-                            <form autocomplete="off">
-                                <div class="form-group">
-                                    <input type="text" name="Name" id="name" class="form-control"
-                                        placeholder="Your Name *" value="" required="" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="number" name="Phone" id="phone" class="form-control"
-                                        placeholder="Your Contact Number *" value="" required="" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="Email" id="email" class="form-control"
-                                        placeholder="your message *" value="" required="" />
-                                </div>
-
-                                <div class="form-group">
-                                    <select class="form-control" id="service">
-                                        <option>Buying our product</option>
-                                        <option>Eye testing service </option>
-                                        <option>provission of eye grasses</option>
-                                        <option>spectacle fitting</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <input type="button" name="submit" class="btnSubmit btn-block" onclick="gotowhatsapp()" value="Submit" />
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div class="container">
+    <div class="contact-head reveal">
+      <span class="section-label" style="display:block;text-align:center">Get in Touch</span>
+      <h2 class="section-title" style="text-align:center">Let's <em>Connect</em></h2>
+    </div>
+    <div class="contact-grid reveal">
+      <div class="c-info">
+        <h2>Visit Us.<br/>Call Us.<br/>Write to Us.</h2>
+        <p>Our team is ready to help you with eye tests, frame selection, and more. Drop by any of our three branches or reach us through your preferred channel.</p>
+        <div class="c-detail">
+          <div class="c-detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div class="c-detail-txt"><strong>Kigali (Main)</strong><span>La Bonne Adresse Bldg, 2nd Floor, Sharma Super Market, UTC</span></div>
         </div>
-    </div>
-<!-- Contact Number Display -->
-<div class="contact-number" style="text-align: center; margin-top: 30px;">
-  <h3 style="color: #00c6ff;">Or reach us directly:</h3>
-  <p style="font-size: 1.2rem; color: #fff;">📞 +250 788 642 443 / +250 781212474 / +250 788683836</p>
-</div>
-
-<!-- Google Maps Embed -->
-
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
-        function gotowhatsapp() {
-
-            var name = document.getElementById("name").value;
-            var phone = document.getElementById("phone").value;
-            var email = document.getElementById("email").value;
-            var service = document.getElementById("service").value;
-
-            var url = "https://wa.me/250781212474?text="
-                + "Name: " + name + "%0a"
-                + "Phone: " + phone + "%0a"
-                + "Message: " + email + "%0a"
-                + "Service: " + service;
-
-            window.open(url, '_blank').focus();
-        }
-    </script>
-
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer py-4 bg-dark text-light">
-    <div class="container">
-        <div class="row align-items-center">
-            <!-- Left Side: Copyright -->
-            <div class="col-lg-4 text-lg-start small">
-                &copy; Eva Optical 2025. All rights reserved.
-            </div>
-
-            <!-- Center: Social / Contact Icons -->
-            <div class="col-lg-4 my-3 my-lg-0 text-center">
-                <!-- Instagram -->
-                <a class="btn btn-light btn-social mx-2" href="https://www.instagram.com/eva.optical/" target="_blank" aria-label="Instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <!-- Location -->
-                <a class="btn btn-light btn-social mx-2" href="https://www.google.com/maps?q=La+Bonne+Adresse,+Sharma+Super+Market,+Kigali" target="_blank" aria-label="Location">
-                    <i class="fas fa-map-marker-alt"></i>
-                </a>
-            </div>
-
-            <!-- Right Side: Optional message or blank -->
-            <div class="col-lg-4 text-lg-end small">
-                Kigali, La Bonne Adresse Building
-            </div>
+        <div class="c-detail">
+          <div class="c-detail-icon"><i class="fas fa-phone"></i></div>
+          <div class="c-detail-txt"><strong>Phone — Kigali</strong><span style="color: black;">+250 788 642 443 &nbsp;/&nbsp; +250 781 212 474 &nbsp;/&nbsp; +250 788 683 836</span></div>
         </div>
+        <div class="c-detail">
+          <div class="c-detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div class="c-detail-txt"><strong>Gisenyi Branch</strong><span style="color: black;">Rubavu &mdash; +250 787 764 713 / +250 783 473 195</span></div>
+        </div>
+        <div class="c-detail">
+          <div class="c-detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div class="c-detail-txt"><strong>Musanze Branch</strong><span style="color: black;">Northern Province &mdash; +250 785 204 171 / +250 784 408 027</span></div>
+        </div>
+        <div class="c-detail">
+          <div class="c-detail-icon"><i class="fab fa-instagram"></i></div>
+          <div class="c-detail-txt"><strong>Instagram</strong><span><a href="https://www.instagram.com/evaopticalrwanda/" target="_blank" style="color:var(--gold)">@evaopticalrwanda</a></span></div>
+        </div>
+      </div>
+      <div class="c-forms">
+        <h3>Send a Message</h3>
+        <div class="form-tabs">
+          <div class="form-tab active" data-tab="email">Email Us</div>
+          <div class="form-tab" data-tab="whatsapp">WhatsApp</div>
+        </div>
+        <div class="form-panel active" id="tab-email">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="b165cc61-a887-42fb-98b1-1a1c4581675e" />
+            <div class="form-group"><label class="form-label">Full Name</label><input type="text" name="name" class="form-control" placeholder="Your name" required /></div>
+            <div class="form-group"><label class="form-label">Email Address</label><input type="email" name="email" class="form-control" placeholder="your@email.com" required /></div>
+            <div class="form-group"><label class="form-label">Message</label><textarea name="message" class="form-control" placeholder="How can we help you?" required></textarea></div>
+            <button type="submit" class="form-submit">Send Message &nbsp;<i class="fas fa-paper-plane fa-xs"></i></button>
+          </form>
+        </div>
+        <div class="form-panel" id="tab-whatsapp">
+          <div class="form-group"><label class="form-label">Your Name</label><input type="text" id="wa-name" class="form-control" placeholder="Your name" /></div>
+          <div class="form-group"><label class="form-label">Phone Number</label><input type="tel" id="wa-phone" class="form-control" placeholder="+250 7XX XXX XXX" /></div>
+          <div class="form-group"><label class="form-label">Message</label><input type="text" id="wa-message" class="form-control" placeholder="Your message" /></div>
+          <div class="form-group">
+            <label class="form-label">Service Interested In</label>
+            <select id="wa-service" class="form-control">
+              <option>Buying Frames / Eyeglasses</option>
+              <option>Eye Testing Service</option>
+              <option>Provision of Eyeglasses</option>
+              <option>Spectacle Fitting</option>
+              <option>Contact Lens Fitting</option>
+            </select>
+          </div>
+          <button class="form-submit" onclick="gotowhatsapp()">Open WhatsApp &nbsp;<i class="fab fa-whatsapp fa-xs"></i></button>
+        </div>
+      </div>
     </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="Eva logo.png" alt="Eva Optical" />
+        <p>Rwanda's premier optical destination — delivering clarity, comfort, and confidence through precision eye care and curated frames.</p>
+        <div class="footer-social">
+          <a class="social-btn" href="https://www.instagram.com/evaopticalrwanda/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a class="social-btn" href="https://x.com/evaoptical" target="_blank" aria-label="X">
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a class="social-btn" href="https://www.tiktok.com/@evaoptical" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          <a class="social-btn" href="https://wa.me/250781212474" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul class="footer-links">
+          <li><a href="#services">Eye Testing</a></li>
+          <li><a href="#services">Eyeglasses Provision</a></li>
+          <li><a href="#services">Spectacle Fitting</a></li>
+          <li><a href="#services">Contact Lens Fitting</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul class="footer-links">
+          <li><a href="#about">About Eva</a></li>
+          <li><a href="#portfolio">Frames Gallery</a></li>
+          <li><a href="#about">Our Branches</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Locations</h5>
+        <ul class="footer-links">
+          <li><a href="https://www.google.com/maps?q=La+Bonne+Adresse,+Sharma+Super+Market,+Kigali" target="_blank">Kigali &#8599;</a></li>
+          <li><a href="https://www.google.com/maps/place/EVA+OPTICAL+LTD/@-1.5089486,29.6392807,17z" target="_blank">Gisenyi &#8599;</a></li>
+          <li><a href="https://www.google.com/maps?q=Eva+Optical+Musanze+Rwanda" target="_blank">Musanze &#8599;</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Eva Optical Ltd. All rights reserved.</p>
+      <p>Kigali, Rwanda</p>
+    </div>
+  </div>
 </footer>
 
-        <!-- Portfolio Modals-->
-        <!-- Portfolio item 1 modal popup-->
-       
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+<a class="wa-float" href="https://wa.me/250781212474" target="_blank" aria-label="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+
+<script>
+  // Nav scroll
+  const nav = document.getElementById('mainNav');
+  window.addEventListener('scroll', () => nav.classList.toggle('scrolled', scrollY > 40), {passive:true});
+
+  // Hamburger
+  const hbg = document.getElementById('hamburger');
+  const mob = document.getElementById('mobNav');
+  hbg.addEventListener('click', () => { hbg.classList.toggle('open'); mob.classList.toggle('open'); });
+  document.querySelectorAll('.mob-link').forEach(l => l.addEventListener('click', () => { hbg.classList.remove('open'); mob.classList.remove('open'); }));
+
+  // Hero slideshow
+  const slides = document.querySelectorAll('.hero-slide');
+  const dotsEl = document.getElementById('heroDots');
+  let cur = 0;
+  slides.forEach((_, i) => {
+    const d = document.createElement('div');
+    d.className = 'hero-dot' + (i===0?' active':'');
+    d.onclick = () => goSlide(i);
+    dotsEl.appendChild(d);
+  });
+  function goSlide(n) {
+    slides[cur].classList.remove('active');
+    document.querySelectorAll('.hero-dot')[cur].classList.remove('active');
+    cur = n;
+    slides[cur].classList.add('active');
+    document.querySelectorAll('.hero-dot')[cur].classList.add('active');
+  }
+  setInterval(() => goSlide((cur+1) % slides.length), 5500);
+
+  // Scroll reveal
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } });
+  }, {threshold:.1, rootMargin:'0px 0px -36px 0px'});
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+  // Form tabs
+  document.querySelectorAll('.form-tab').forEach(t => {
+    t.addEventListener('click', () => {
+      document.querySelectorAll('.form-tab').forEach(x => x.classList.remove('active'));
+      document.querySelectorAll('.form-panel').forEach(x => x.classList.remove('active'));
+      t.classList.add('active');
+      document.getElementById('tab-'+t.dataset.tab).classList.add('active');
+    });
+  });
+
+  // WhatsApp
+  function gotowhatsapp() {
+    const n = document.getElementById('wa-name').value;
+    const p = document.getElementById('wa-phone').value;
+    const m = document.getElementById('wa-message').value;
+    const s = document.getElementById('wa-service').value;
+    window.open(`https://wa.me/250781212474?text=Name: ${encodeURIComponent(n)}%0aPhone: ${encodeURIComponent(p)}%0aMessage: ${encodeURIComponent(m)}%0aService: ${encodeURIComponent(s)}`,'_blank').focus();
+  }
 
 
-   <script>
-    const images = [
-      "assets/img/image1.jpg",
-      "assets/img/image2.jpg",
-      "assets/img/image3.png",
-      "assets/img/image5.png",
-      "assets/img/image6.png",
-      "assets/img/image4.JPG"
-    ];
-
-    let currentImage = 0;
-    const masthead = document.getElementById("dynamic-masthead");
-
-    function changeBackground() {
-      const url = `url(${images[currentImage]})`;
-      masthead.style.backgroundImage = url;
-      currentImage = (currentImage + 1) % images.length;
-    }
-
-    changeBackground();
-    setInterval(changeBackground, 5000);
-  </script>
-
-    </body>
+</script>
+</body>
 </html>
