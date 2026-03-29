@@ -432,6 +432,21 @@
       grid-template-columns: 1fr;
     }
   }
+  .hero-promo {
+    display: inline-block;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255, 204, 0, 0.3);
+    animation: fadeIn 1s ease-out;
+}
+
+/* Ensure readability on smaller screens */
+@media (max-width: 768px) {
+    .hero-promo {
+        font-size: 0.9rem;
+        display: block;
+        line-height: 1.4;
+    }
+}
 </style>
 
 <div class="mob-nav" id="mobNav">
@@ -492,7 +507,13 @@
         <span>Welcome to Eva Optical Rwanda</span>
       </div>
       <h1 class="hero-title" style="color: white;">Clarity.<br/><em>Comfort.</em><br/>Confidence.</h1>
+      
+      <div class="hero-promo" style="color: #ffcc00; font-weight: 600; margin-bottom: 15px; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 1px;">
+        Frames from 15,000 FRW &bull; Eye checkup only 5,000 FRW
+      </div>
+
       <p class="hero-sub" style="color: white;">Premium eye care, precision-crafted lenses, and curated frames — where vision meets artistry.</p>
+      
       <div class="hero-btns">
         <a href="#services" class="btn-primary">Explore Services &rarr;</a>
         <a href="#contact" class="btn-ghost" style="color: white;">Book Eye Test</a>
