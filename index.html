@@ -307,6 +307,142 @@
 .nav.scrolled .nav-logo .logo-dark {
   display: block;
 }
+<style>
+  /* ... (Keep your existing :root and base styles) ... */
+
+  /* ── UPDATED NAV & MOBILE MENU ── */
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transition: background .4s, border-color .4s;
+    border-bottom: 1px solid transparent;
+  }
+  .nav.scrolled {
+    background: #fafaf8; /* Solid background on scroll for readability */
+    border-color: var(--border);
+  }
+  
+  /* Fixed Mobile Menu Styles */
+  .mob-nav {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #1a1a18; /* Dark background for contrast */
+    padding: 100px 2rem;
+    z-index: 999;
+    transition: transform 0.4s var(--ease-out);
+    transform: translateY(-100%);
+  }
+  .mob-nav.open {
+    display: block;
+    transform: translateY(0);
+  }
+  .mob-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+  .mob-nav a {
+    font-size: 1.5rem;
+    font-family: var(--serif);
+    color: #fafaf8;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  /* ── HERO RESPONSIVENESS ── */
+  @media (max-width: 768px) {
+    .hero {
+      text-align: center;
+      padding-top: 60px;
+    }
+    .hero-eyebrow {
+      justify-content: center;
+    }
+    .hero-title {
+      font-size: 2.8rem !important; /* Forces smaller size on mobile */
+      line-height: 1.2;
+    }
+    .hero-sub {
+      margin: 0 auto 2rem;
+    }
+    .hero-btns {
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+    }
+    .btn-primary, .btn-ghost {
+      width: 100%;
+      justify-content: center;
+    }
+    
+    /* Stats grid fix */
+    .stats-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    .stat-item {
+      border-right: none;
+      border-bottom: 1px solid var(--border);
+      padding: 1.5rem 0;
+    }
+    .stat-item:nth-last-child(-n+2) {
+      border-bottom: none;
+    }
+
+    /* Layout stack */
+    .services-header, .about-intro, .contact-grid {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+    .services-header p {
+      text-align: center !important;
+      margin: 0 auto;
+    }
+    .divider {
+      margin: 1.4rem auto;
+    }
+    
+    /* Center About Badge */
+    .about-badge {
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -1rem;
+      width: 80%;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .section-title {
+      font-size: 2.2rem;
+    }
+    .stats-grid {
+      grid-template-columns: 1fr;
+    }
+    .frames-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<div class="mob-nav" id="mobNav">
+  <ul>
+    <li><a href="#page-top" class="mob-link">Home</a></li>
+    <li><a href="#services" class="mob-link">Services</a></li>
+    <li><a href="#portfolio" class="mob-link">Frames</a></li>
+    <li><a href="#about" class="mob-link">About</a></li>
+    <li><a href="#contact" class="mob-link">Contact</a></li>
+  </ul>
+</div>
   </style>
 </head>
 <body id="page-top">
@@ -317,7 +453,7 @@
     <div class="nav-inner">
 <a class="nav-logo" href="#page-top">
   <img src="evalogo white.png" alt="Eva Optical" class="logo-light" />
-  <img src="evalogo.png" alt="Eva Optical" class="logo-dark" />
+  <img src="eva logo.png" alt="Eva Optical" class="logo-dark" />
 </a>      <ul class="nav-links">
         <li><a href="#page-top">Home</a></li>
         <li><a href="#services">Services</a></li>
@@ -656,7 +792,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <img src="Evalogo.png" alt="Eva Optical" />
+        <img src="Eva logo.png" alt="Eva Optical" />
         <p>Rwanda's premier optical destination — delivering clarity, comfort, and confidence through precision eye care and curated frames.</p>
         <div class="footer-social">
           <a class="social-btn" href="https://www.instagram.com/evaopticalrwanda/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
